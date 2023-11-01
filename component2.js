@@ -7,7 +7,6 @@ export default function Component2() {
             <Button title="Press" 
             onPress={() => console.log("Button Pressed")}
             color="midnightblue"
-            disabled
              />
 
         </View>
