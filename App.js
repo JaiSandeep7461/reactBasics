@@ -1,11 +1,12 @@
 import { View, Text, Image, ImageBackground ,ScrollView,Pressable} from "react-native";
-import Component2 from "./component2";
+import Component2 from "./components/component2";
+import Component3 from "./components/component3";
 const logoImg = require("./assets/adaptive-icon.png")
 
 export default function App() {
   return <View style={{ flex: 1, backgroundColor: "plum", padding: 60 }}>
 
-  <Component2/>
+  <Component3/>
 
    {/* <ScrollView>
    <Pressable onPress={()=>console.log("Image Pressed")}>
