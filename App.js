@@ -5,7 +5,9 @@ const logoImg = require("./assets/adaptive-icon.png")
 export default function App() {
   return <View style={{ flex: 1, backgroundColor: "plum", padding: 60 }}>
 
-   <ScrollView>
+  <Component2/>
+
+   {/* <ScrollView>
    <Pressable onPress={()=>console.log("Image Pressed")}>
    <Component2/>
    </Pressable>
@@ -21,6 +23,6 @@ export default function App() {
     </Pressable>
     <Image source={logoImg} style={{ width: 300, height: 300 }} />
 
-   </ScrollView>
+   </ScrollView> */}
   </View>;
 }
